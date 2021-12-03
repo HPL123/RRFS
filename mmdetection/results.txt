@@ -1,0 +1,9 @@
+0.18023252487182617 -------- ../checkpoints/coco_65_15/classifier_best_12.pth 
+0.17925596237182617 -------- ../checkpoints/coco_65_15_e2/classifier_best_12.pth 
+0.1926453560590744 -------- ../checkpoints/coco_65_15/classifier_best_27.pth 
+0.17312929034233093 -------- ../checkpoints/coco_65_15_all_losses/classifier_best_66.pth 
+0.16963745653629303 -------- ../checkpoints/coco_65_15_all_losses/classifier_best_15.pth 
+0.18935075402259827 -------- ../checkpoints/coco_65_15_all_losses/classifier_best_18.pth 
+0.16942928731441498 -------- ../checkpoints/coco_65_15/classifier_best.pth 
+0.18946900963783264 -------- ../checkpoints/coco_65_15/classifier_best.pth 
+0.19133378565311432 -------- ../checkpoints/coco_65_15_e2/classifier_best.pth 
