@@ -10,7 +10,7 @@ The following scripts are for different steps in the pipeline on PASCAL VOC data
  
 
 ### 2. Extract features
-       # extract seen classes features to train Synthesizer and unseen class features for cross validation
+       # extract seen classes features to train synthesizer and unseen class features for cross validation
        
        cd mmdetection
        
