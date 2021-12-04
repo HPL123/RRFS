@@ -27,6 +27,12 @@ The following scripts are for dfferents steps in the pipeline on PASCAL VOC data
  ### 4. Test 
  
        cd mmdetection
+       
+       ## C setting
+       ./tools/dist_test.sh configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py /work_dir/voc0712/epoch_4.pth --dataset voc --out voc_results.pkl --zsd --syn_weights ../checkpoints/VOC/classifier_best.pth
+       
+       ## G setting
+       ./tools/dist_test.sh configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py /work_dir/voc0712/epoch_4.pth --dataset voc --out voc_results.pkl --gzsd --syn_weights ../checkpoints/VOC/classifier_best.pth
       
       
        
