@@ -13,5 +13,8 @@ The following scripts are for dfferents steps in the pipeline on PASCAL VOC data
        # extract seen classes features to train Synthesizer and unseen class features for cross validation
        cd mmdetection
        # extract training features for seen classes
-       python tools/zero_shot_utils.py configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py --classes seen --load_from ./work_dir/voc0712/epoch_4.pth --save_dir ../../data/coco --data_split train
- 
+       python tools/zero_shot_utils.py configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py --classes seen --load_from ./work_dir/voc0712/epoch_4.pth --save_dir ../../data/voc --data_split train
+       # extract training features for unseen classes
+       python tools/zero_shot_utils.py configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py --classes unseen --load_from ./work_dir/voc0712/epoch_4.pth --save_dir ../../data/voc --data_split test
+       
+       
