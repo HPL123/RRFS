@@ -20,4 +20,8 @@ The following scripts are for dfferents steps in the pipeline on PASCAL VOC data
        # extract training features for unseen classes
        python tools/zero_shot_utils.py configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py --classes unseen --load_from ./work_dir/voc0712/epoch_4.pth --save_dir ../../data/voc --data_split test
        
+ ### 2. Train Synthesizer
+      # modify the paths to extracted features, labels and model checkpoints.
+      
+       
        
