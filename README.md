@@ -7,3 +7,7 @@
 ### 1. Train object detector on seen images
        cd mmdetection
        ./tools/dist_train.sh configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py
+ 
+
+### 2. Extract features
+       # extract seen classes features to train Synthesizer and unseen class features for cross validation
