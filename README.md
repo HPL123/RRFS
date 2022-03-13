@@ -35,12 +35,11 @@ The following scripts are for different steps in the pipeline on PASCAL VOC data
        ./tools/dist_test.sh configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py /work_dir/voc0712/epoch_4.pth --dataset voc --out voc_results.pkl --gzsd --syn_weights ../checkpoints/VOC/classifier_best.pth
       
  ### Citation
-       If you think our work is helpful, please cite
-       @article{huang2022robust,
-  title={Robust Region Feature Synthesizer for Zero-Shot Object Detection},
-  author={Huang, Peiliang and Han, Junwei and Cheng, De and Zhang, Dingwen},
-  journal={arXiv preprint arXiv:2201.00103},
-  year={2022}
-}
-       
+ If you think our work is helpful, please cite
+      @article{huang2022robust,
+        title={Robust Region Feature Synthesizer for Zero-Shot Object Detection},
+        author={Huang, Peiliang and Han, Junwei and Cheng, De and Zhang, Dingwen},
+        journal={arXiv preprint arXiv:2201.00103},
+        year={2022}
+      }
        
