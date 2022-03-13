@@ -36,10 +36,14 @@ The following scripts are for different steps in the pipeline on PASCAL VOC data
       
  ### Citation
  If you think our work is helpful, please cite
+ 
         @article{huang2022robust,
           title={Robust Region Feature Synthesizer for Zero-Shot Object Detection},
           author={Huang, Peiliang and Han, Junwei and Cheng, De and Zhang, Dingwen},
           journal={arXiv preprint arXiv:2201.00103},
           year={2022}
          }
+  ### 1. Train object detector on seen classes
+       cd mmdetection
+       ./tools/dist_train.sh configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py
        
