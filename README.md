@@ -43,7 +43,3 @@ The following scripts are for different steps in the pipeline on PASCAL VOC data
           journal={arXiv preprint arXiv:2201.00103},
           year={2022}
          }
-  ### 1. Train object detector on seen classes
-       cd mmdetection
-       ./tools/dist_train.sh configs/pascal_voc/faster_rcnn_r101_fpn_1x_voc0712.py
-       
